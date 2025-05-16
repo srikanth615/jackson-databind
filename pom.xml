@@ -189,7 +189,7 @@
     </repository>
   </repositories>
 
-  <build>
+</build>
     <plugins>
       <plugin>
       <groupId>org.jacoco</groupId>
@@ -329,7 +329,7 @@
       </plugin>	    
      </plugins>
   </build>
-<build>
+</build>
   <profiles>
     <profile>
       <id>release</id>
@@ -344,7 +344,7 @@
       <activation>
         <jdk>11</jdk>
       </activation>
-      <build>
+    </build>
         <plugins>
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
@@ -391,7 +391,7 @@
       <properties>
         <argLine>--add-opens=java.base/java.util=ALL-UNNAMED</argLine>
       </properties>
-      <build>
+    </build>
         <plugins>
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
@@ -454,7 +454,7 @@
       <properties>
         <argLine>--add-opens=java.base/java.util=ALL-UNNAMED</argLine>
       </properties>
-      <build>
+    </build>
         <plugins>
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
@@ -494,7 +494,7 @@
     </profile>
     <profile>
       <id>errorprone</id>
-      <build>
+    </build>
         <plugins>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
