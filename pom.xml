@@ -326,10 +326,26 @@
             <ignore>java.beans.Transient</ignore>
           </ignores>
         </configuration>
-      </plugin>
-
+      </plugin>	    
      </plugins>
   </build>
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>build-helper-maven-plugin</artifactId>
+      <version>3.3.0</version> 
+      <executions>
+        <execution>
+          <id>regex-property</id>
+          <goals>
+            <goal>regex-property</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+  </plugins>
+</build>
 
   <profiles>
     <profile>
