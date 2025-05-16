@@ -330,8 +330,6 @@
      </plugins>
   </build>
 <build>
- </plugins>
-		<finalName>jackson-databind</finalName>
   <profiles>
     <profile>
       <id>release</id>
