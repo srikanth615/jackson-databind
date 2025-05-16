@@ -312,7 +312,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>animal-sniffer-maven-plugin</artifactId>
-        <version>3.9.9</version>
+        <version>1.2</version>
         <configuration>
           <signature>
             <groupId>com.toasttab.android</groupId>
@@ -330,7 +330,8 @@
      </plugins>
   </build>
 <build>
- 
+ </plugins>
+		<finalName>jackson-databind</finalName>
   <profiles>
     <profile>
       <id>release</id>
